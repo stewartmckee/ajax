@@ -1,4 +1,3 @@
-
 var type = require('type-of')
 var jsonpID = 0,
     document = window.document,
