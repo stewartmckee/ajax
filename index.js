@@ -1,12 +1,5 @@
-var type
-try {
-  type = require('type-of')
-} catch (ex) {
-  //hide from browserify
-  var r = require
-  type = r('type')
-}
 
+var type = require('type-of')
 var jsonpID = 0,
     document = window.document,
     key,
